@@ -20,6 +20,10 @@ ul {
 a {
     text-decoration: none;
 }
+::selection {
+    background-color: var(--main-color);
+    color: #fff;
+}
 .container {
     margin: 0 auto;
     padding: 0 15px;
@@ -365,6 +369,9 @@ a {
 }
 .landing .text h1 span {
     color: var(--main-color);
+}
+.landing .text h1 span::selection {
+    color: #000;
 }
 .landing .text p {
     font-size: 20px;
